@@ -7,8 +7,8 @@ metadata:
     app: demo-voting-app
 spec:
   selector:
-    app: redis-app-pod
-    name: demo-voting-app
+    name: redis-app-pod
+    app: demo-voting-app
   type: ClusterIP
   ports:
     - name: redis

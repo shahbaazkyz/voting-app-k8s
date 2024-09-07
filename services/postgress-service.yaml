@@ -7,8 +7,8 @@ metadata:
     app: demo-voting-app
 spec:
   selector:
-    app: postgres-app-pod
-    name: demo-voting-app
+    name: postgres-app-pod
+    app: demo-voting-app
   type: ClusterIP
   ports:
     - name: db
